@@ -1,0 +1,21 @@
+{
+  "name": "@app/shared",
+  "version": "1.0.0",
+  "main": "src/main.ts",
+  "types": "src/main.ts",
+  "private": true,
+  "exports": {
+    ".": "./src/main.ts",
+    "./utils": "./src/utils.ts",
+    "./types": "./src/types.ts"
+  },
+  "scripts": {
+    "check-types": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.2"
+  },
+  "dependencies": {
+    "zod": "^4.0.2"
+  }
+}

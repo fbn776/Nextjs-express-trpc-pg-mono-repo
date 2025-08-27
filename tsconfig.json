@@ -2,7 +2,7 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "@opus/*": ["packages/shared/src/*"]
+      "@shared/*": ["packages/shared/src/*"]
     }
   },
   "exclude": ["node_modules"]
